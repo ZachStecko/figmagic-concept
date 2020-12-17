@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 // Extend the below as needed
-const ButtonStyled = styled.button<ButtonProps>`
+const ButtonStyled = styled.div<ButtonProps>`
   ${ButtonCss};
 `;
 

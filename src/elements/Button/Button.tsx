@@ -8,7 +8,7 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ children }) => (
-  <ButtonStyled>{children ? children : "Button text"}</ButtonStyled>
+  <ButtonStyled>{children ? children : ""}</ButtonStyled>
 );
 
 export default Button;
